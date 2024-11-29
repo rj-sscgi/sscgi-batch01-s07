@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=0, user-scalable=no"
+		/>
+		<title>Pacman</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;600;700&family=Press+Start+2P&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<!-- START HEADER -->
+		<header>
+			<h1 class="pacman_header">Pacman</h1>
+			<div id="health_display">Health: 3</div>
+		</header>
+
+		<!-- END HEADER -->
+
+		<!-- Game Container -->
+		<div class="canvas">
+			<div class="colors">
+				<div class="enemy_ghost_a size">
+					<span class="enemy_text_description"
+						>Enemy 1: <strong>300</strong> Health</span
+					>
+				</div>
+
+				<div class="enemy_ghost_b size">
+					<span class="enemy_text_description"
+						>Enemy 2: <strong>200</strong> Health</span
+					>
+				</div>
+
+				<div class="enemy_ghost_c size">
+					<span class="enemy_text_description"
+						>Enemy 3: <strong>100</strong> Health</span
+					>
+				</div>
+
+				<div class="enemy_ghost_d size">
+					<span class="enemy_text_description"
+						>Enemy 4: <strong>80</strong> Health</span
+					>
+				</div>
+
+				<div class="enemy_ghost_e size">
+					<span class="enemy_text_description"
+						>Enemy 5: <strong>50 </strong>Health</span
+					>
+				</div>
+
+				<div class="enemy_ghost_f size">
+					<span class="enemy_text_description"
+						>Enemy 6: <strong>30 </strong>Health</span
+					>
+				</div>
+
+				<div class="enemy_ghost_g size">
+					<span class="enemy_text_description"
+						>Enemy 7: <strong>20 </strong>Health</span
+					>
+				</div>
+
+				<div class="enemy_ghost_h size">
+					<span class="enemy_text_description"
+						>Enemy 8: <strong>10 </strong>Health</span
+					>
+				</div>
+			</div>
+
+			<table id="game_container"></table>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
